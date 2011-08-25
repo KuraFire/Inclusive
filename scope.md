@@ -37,6 +37,7 @@ This document is for gathering details about the scope of Inclusive’s features
     * Grouping by feature-set or subject matter: multiple objects with (linear) skill levels in each, user gains experience across all groups (objects)
     * Skill levels are represented as a numerical index, customizable (default: 1–5)
     * Default skill group can be averaged aggregate of all sub-groups (if created)
-* Developer polls `Incl.user.skills.level` (for example), or `Incl.user.skills.someGroup.level` to determine when to show UI elements and features
+
+* Developer polls `Inclusive.user.skills.level` (for example), or `Inclusive.user.skills.someGroup.level` to determine when to show UI elements and features
 
 * Inline UI help indicators for communicating with the user; when a user gains a skill level, UI popups can be used to communicate new features or options to the user
