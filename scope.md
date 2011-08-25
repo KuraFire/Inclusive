@@ -2,7 +2,7 @@
 
 --
 
-Metrics to track:
+### Metrics to track:
 
 * Time between actions
 * Hovering vs. Clicks
@@ -10,5 +10,8 @@ Metrics to track:
 * Frequency of Help section use
 * Frequency of Undo function use
 * Typing speed
-* Dialog dismiss speed
-* 
+* Dialog dismiss behavior: Cancel vs. Action
+* Use of customization features
+* Button familiarities:
+* * Escape
+* * Home/End
