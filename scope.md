@@ -54,3 +54,6 @@ This document is for gathering details about the scope of Inclusive’s features
 
 * Inline UI help indicators for communicating with the user; when a user gains a skill level, UI popups can be used to communicate new features or options to the user
     * See: Events section above; developer can hook into our event gathering model for inline UI help/communications
+    
+---
+
