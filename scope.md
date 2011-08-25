@@ -7,7 +7,7 @@ This document is for gathering details about the scope of Inclusive’s features
 ### Metrics to track:
 
 * Time between actions
-* Time between sessions
+* Time between sessions (for app use decay)
 * Hovering vs. Clicks
 * Frequency of keyboard shortcuts use
 * Frequency of Help section use
@@ -38,6 +38,15 @@ This document is for gathering details about the scope of Inclusive’s features
     * Grouping by feature-set or subject matter: multiple objects with (linear) skill levels in each, user gains experience across all groups (objects)
     * Skill levels are represented as a numerical index, customizable (default: 1–5)
     * Default skill group can be averaged aggregate of all sub-groups (if created)
+
+* Events:
+    * When a user gains a level, on a per-group granularity
+    * When a user drops a level (usage decay)
+
+* Polls / surveys:
+    * Ability to ask the user for their approval / disapproval of UI changes upon gaining or losing a level
+    * Helps us to determine if our algorithms are tuned properly (“is the user really ready for this change or are we too eager?”)
+    * Helps the developer fine-tune their groups and skill level designations
 
 * Developer polls `Inclusive.user.skills.level` (for example), or `Inclusive.user.skills.someGroup.level` to determine when to show UI elements and features
 
