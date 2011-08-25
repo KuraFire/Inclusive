@@ -7,6 +7,7 @@ This document is for gathering details about the scope of Inclusive’s features
 ### Metrics to track:
 
 * Time between actions
+* Time between sessions
 * Hovering vs. Clicks
 * Frequency of keyboard shortcuts use
 * Frequency of Help section use
