@@ -15,3 +15,12 @@
 * Button familiarities:
     * Escape
     * Home/End
+* Use of advanced search techniques
+
+
+### Storage and processing of metrics data
+
+* Use window.localStorage
+    * **REQUIRED**: built-in mechanism for syncing to server
+* Weighting of metrics for algorithmic determination of the user skill level
+    * Customization of weighting scales only for those diving into the raw source
