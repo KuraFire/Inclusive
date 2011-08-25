@@ -13,5 +13,5 @@
 * Dialog dismiss behavior: Cancel vs. Action
 * Use of customization features
 * Button familiarities:
-* * Escape
-* * Home/End
+    * Escape
+    * Home/End
