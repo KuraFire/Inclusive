@@ -42,6 +42,8 @@ __Negative impact__
 
 __Ambiguous__
 
+* We could try to count the number of times the browser's Back function is used, through URL hash changes or state object changes.
+  If the user keeps jumping back and forth around the application, it could indicate trial and error.
 * Several metrics, particularly those involving time, may not be indicative of user skill (i.e. person could be multitasking)
     * Time between actions
     * Hover vs. click
