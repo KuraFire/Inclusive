@@ -14,6 +14,8 @@ __Distribution__
 __Grouping elements by skill__
 
 * Identify which UI elements should be displayed by assigning a class? ("inclusive-1" through "inclusive-5")
+    * What if we would offer a way for the dev to populate a map with tiny help bubbles that automatically 
+      pop up next to newly-revealed UI elements? All you'd do as a dev is populate it with ID->helptext ?
 
 __Sync to server__
 
