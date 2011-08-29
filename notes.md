@@ -46,6 +46,10 @@ __Ambiguous__
     * Time between actions
     * Hover vs. click
     * Typing speed
+* For those metrics that measure elapsed time, we need to somehow account for extreme differences between recordings.
+  If the user clicks around the interface within a short time period then stops for 5 minutes to do something else,
+  the system cannot assume that the person is experiencing difficulties; they could be idling or focused elsewhere.
+  We can determine an average reading and try to weed out values that seem unreasonable (by setting a certain acceptable threshold?)
 
 The Ambiguous metrics can be used to reinforce either a positive or negative tilting. 
 
