@@ -44,6 +44,8 @@ __Ambiguous__
 
 * We could try to count the number of times the browser's Back function is used, through URL hash changes or state object changes.
   If the user keeps jumping back and forth around the application, it could indicate trial and error.
+* If the user's web browser happens to be identifiable as a cutting-edge development build, assume they have more technical prowess?
+  This would obviously need to be taken lightly (the person could be using someone else's computer).
 * Several metrics, particularly those involving time, may not be indicative of user skill (i.e. person could be multitasking)
     * Time between actions
     * Hover vs. click
