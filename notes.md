@@ -28,7 +28,7 @@ __Sync to server__
 
 ---
 
-### Weighting individual metrics
+### Weighing individual metrics
 
 __Positive impact__
 
@@ -50,6 +50,7 @@ __Ambiguous__
   If the user clicks around the interface within a short time period then stops for 5 minutes to do something else,
   the system cannot assume that the person is experiencing difficulties; they could be idling or focused elsewhere.
   We can determine an average reading and try to weed out values that seem unreasonable (by setting a certain acceptable threshold?)
+    * Try to detect focus and blur, but this result cannot be relied upon.
 
 The Ambiguous metrics can be used to reinforce either a positive or negative tilting. 
 
