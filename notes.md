@@ -22,6 +22,9 @@ __Sync to server__
 * Developers need to be able to associate our calculated skill levels with their existing user objects
     * Do devs need to poll Inclusive then write to database?
     * Or do we trigger a callback after calculating levels?
+    * ↳ We'll offer an API to retrieve a `userObject` that can be stored on the server, and simply overwritten 
+      as an update. Similarly the server can push the `userObject` into Inclusive on the front-end if that one
+      is out of date.
 
 ---
 
@@ -43,5 +46,7 @@ __Ambiguous__
     * Time between actions
     * Hover vs. click
     * Typing speed
+
+The Ambiguous metrics can be used to reinforce either a positive or negative tilting. 
 
 ---
