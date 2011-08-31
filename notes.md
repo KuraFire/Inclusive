@@ -68,7 +68,7 @@ Drag and drop -> if you drag an object from one place to the other, the interfac
 
 These two menu items could each have a subtle shortcut key on the right of the item/clickable area, e.g.
 
-`Move object here                command`
-`Add a copy of object here        option`
+	 Move object here                command
+	 Add a copy of object here        option
 
 That way, a pro user can recognize the keyboard shortcut identifiers and hold down each key once they figure it out. For non-pro users, the subtle thing on the right won't mean much and they'll ignore it, happily using the on-drop-menu instead.
