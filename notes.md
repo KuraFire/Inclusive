@@ -4,6 +4,29 @@ This document is for notes related to the development and implementation of the 
 
 ---
 
+### Launch thoughts
+
+Faruk writes:
+
+> Developing this will take a good amount of time, but I am already set to publish an article entitled *Inclusive Interface Design* relatively soon. I think it'll be best if we get a domain + one-page design made for it where we announce that this is now being developed, and people can sign up to our email newsletter for updates on when we'll go into beta etc.
+
+> I just registered inclusiveframework.com and inclusiveui.com - any other obvious domain names we should get for this?
+
+> I don't really like launchrock.com but it's a good inspiration of how simple this ought to be. Maybe add a field: "Describe in 140 characters or less what kind of app you're hoping to build with the Inclusive Framework" or something like that.
+
+> We should also see which existing JavaScript app framework we can combine this with. Any preferences? Options (add any more you can think of):
+
+* [SproutCore](http://www.sproutcore.com/)
+* [Kendo](http://www.kendoui.com/)
+* [Jo](http://joapp.com/)
+* [Sencha](http://www.sencha.com/)
+* [ActiveJS](http://www.activejs.org/)
+* [Backbone.js](http://documentcloud.github.com/backbone/)
+* [Cappuccino](http://cappuccino.org/)
+* [Ender](http://ender.no.de/)
+
+---
+
 ### Implementing Inclusive in an application
 
 __Distribution__

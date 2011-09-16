@@ -31,6 +31,13 @@ This document is for gathering details about the scope of Inclusive’s features
 
 ---
 
+### Features
+
+* Built-in mechanisms to do A/B testing of UI controls (colors, labels, positioning etc.)
+    * This expands the framework out to quite a bit, admittedly, so it might be worth investigating Ender.js and seeing if this aspect can be turned into its own pluggable module. That way, the A/B testing part can be sold/distributed separately.
+
+---
+
 ### Development & Implementation
 
 * Skill trees:
